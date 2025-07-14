@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>burger Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    form {
+      background-color: antiquewhite;
+      color: black;
+      width: 50%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+    }
+    input, select, textarea {
+      width: 90%;
+      padding: 8px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    label {
+      font-weight: bold;
+      text-align: center;
+    }
+    button {
+      background-color: #e07a5f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d35c3c;
+      
+    }
+    .gender{
+      text-align: center;
+
+    }
+  </style>
+</head>
+<body>
+     <header class="headers">
+        <nav class="nav-links">
+          <a href="index.html" class="active:">Home</a>
+          <a href="Galerry.html">Galerry</a>
+          <a href="Booking.html">booking</a>
+          <a href="Help.html">help</a></p>
+          <a href="About.html">about</a>
+        </nav>
+    </header>
+<br><br><br><br>
+  <form>
+    <fieldset>
+      <legend><h2>burger Booking Form</h2></legend>
+
+      <!-- Magacyada -->
+      <label for="firstName">First Name:</label>
+      <input  type="text" id="firstName" name="firstName" placeholder="Enter first name" required><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required><br>
+
+      <!-- Phone -->
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone" placeholder="Phone number" required><br>
+
+      <!-- Degmada -->
+      <label for="district">District:</label><br>
+      <select name="district" id="district" required><br>
+        <option value="">Select District</option>
+        <option value="hodon">Hodon</option>
+        <option value="howlwadaag">Howlwadaag</option>
+        <option value="deyniile">Deyniile</option>
+        <option value="yaaqshiid">Yaaqshiid</option>
+        <option value="kaaraan">Kaaraan</option>
+        <option value="warta nabada">Warta Nabada</option>
+        <option value="cali kamiin">Cali Kamiin</option>
+        <option value="wardhiigleey">Wardhiigleey</option>
+      </select>
+
+      <!-- Nooca Pizza -->
+      <label for="burgerType">burgerType:</label><br>
+      <select id="burgerType" name="burgerType" required><br>
+        <option value="">Choose a burgers</option>
+        <option value="classic beef burger">classic beef burger</option>
+        <option value="double beef burger">doble beef burger</option>
+        <option value="BBQ bugur">BBQ burger</option>
+        <option value="cheese burger">cheese burger</option>
+        <option value="fish burger">fish burger</option>
+      </select><br>
+
+      <!-- Size -->
+      <label for="size">Size:</label><br>
+      <select id="size" name="size" required><br>
+        <option value="">Choose Size</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option><br>
+      </select>
+
+     
+      <label for="address">Delivery_Address:</label><br><br>
+      <textarea id="address" name="address" placeholder="Enter delivery address here..." required></textarea>
+
+      <!-- Comments -->
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" placeholder="Any special requests..."></textarea>
+      <button type="submit">submit</button>
+    </fieldset>
+  </form>
+  <footer>
+    <p>&copy; 2025  burger- Dhammaan Xuquuqda Way Dhawrsan Tahay</p>
+    </footer>
+</body>
+</html>

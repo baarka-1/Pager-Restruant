@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 80%;
+          margin: auto;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+      
+        th, td {
+          padding: 12px;
+          text-align: center;
+          border: 1px solid #f9f9f9;
+        }
+      
+        th {
+          background-color: #fcb900;
+          color: black;
+        }
+      
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+      
+        tr:hover {
+          background-color: #ffe0b3;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <div class="logo">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active:">Home</a>
+            <a href="Galerry.html">Galerry</a>
+            <a href="Booking.html">booking</a>
+            <a href="Help.html">help</a></p>
+            <a href="About.html">about</a>
+        </nav>
+        <div class="header-right">
+        </div>
+    </header>
+    <main>
+    <section class="carousel-container">
+        <i class="fas fa-chevron-left prev-arrow carousel-arrow"></i>
+        <div class="carousel-inner">
+            <div class="carousel-item orange-bg">
+                <img src="1.jpg" alt="Classic Burger" class="item-image">
+                <h3 class="item-title">Classic Burger</h3>
+                <p class="item-price">$8.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="carousel-item green-bg">
+                <img src="2.jpg" alt="Veggie Burger" class="item-image">
+                <h3 class="item-title">Veggie Burger</h3>
+                <p class="item-price">$7.49</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="carousel-item purple-bg">
+                <img src="3.jpg" alt="Double Burger" class="item-image">
+                <h3 class="item-title">Double Burger</h3>
+                <p class="item-price">$9.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="carousel-item blue-bg">
+                <img src="4.jpg" alt="Bacon Burger" class="item-image">
+                <h3 class="item-title">Bacon Burger</h3>
+                <p class="item-price">$10.49</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right next-arrow carousel-arrow"></i>
+    </section>
+    <table border="1">
+        <tr>
+          <th>burger name</th>
+          <th>price</th>
+          <th>size</th>
+        </tr>
+        <tr>
+          <td>classic burger</td>
+          <td>8.99</td>
+          <td>medium</td>
+        </tr>
+        <tr>
+            <td>veggie burger</td>
+            <td>7.49</td>
+            <td>small</td>
+        </tr>
+        <tr>
+            <td>double burger</td>
+            <td>9.99</td>
+            <td>large</td>
+        </tr>
+        <tr>
+            <td>bacon burger</td>
+            <td>10.49</td>
+            <td>small</td>
+        </tr>
+    
+      </table>
+</main>
+</body>
+</html>
